@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Gestão Escolar - EduFuturo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="brand">
+      <h2>EduFuturo</h2>
+    </div>
+    <nav class="menu">
+      <a href="#" class="active"><span>🏠</span> Início</a>
+      <a href="#"><span>👨‍🎓</span> Alunos</a>
+      <a href="#"><span>👩‍🏫</span> Professores</a>
+      <a href="#"><span>📚</span> Turmas</a>
+      <a href="#"><span>⏰</span> Horários</a>
+      <a href="#"><span>📖</span> Biblioteca</a>
+      <a href="#"><span>💰</span> Financeiro</a>
+      <a href="#" class="settings"><span>⚙️</span> Configurações</a>
+    </nav>
+  </aside>
+
+  <div class="main-wrapper">
+    
+    <header class="header">
+      <div class="header-left">
+        <img src="imagens/logo.png" alt="Logo Escola" class="logo" onerror="this.src='https://via.placeholder.com/40'">
+        <h1>Escola Novo Horizonte</h1>
+      </div>
+      <div class="header-right">
+        <span class="system-name">Portal de Gestão</span>
+        <span class="date">30/07/2026</span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      
+      <section class="cards-grid">
+        <div class="card">
+          <div class="card-icon">👨‍🎓</div>
+          <div class="card-info">
+            <h3>Alunos</h3>
+            <p>850</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">👩‍🏫</div>
+          <div class="card-info">
+            <h3>Professores</h3>
+            <p>48</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📚</div>
+          <div class="card-info">
+            <h3>Turmas</h3>
+            <p>32</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📖</div>
+          <div class="card-info">
+            <h3>Livros</h3>
+            <p>5.420</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🏆</div>
+          <div class="card-info">
+            <h3>Eventos</h3>
+            <p>15</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💻</div>
+          <div class="card-info">
+            <h3>Laboratórios</h3>
+            <p>6</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-grid">
+        
+        <section class="table-section">
+          <h2>Alunos Recentes</h2>
+          <div class="table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>Matrícula</th>
+                  <th>Nome</th>
+                  <th>Turma</th>
+                  <th>Situação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#202601</td>
+                  <td>Ana Silva</td>
+                  <td>3º A - EM</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202602</td>
+                  <td>Bruno Santos</td>
+                  <td>2º B - EM</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202603</td>
+                  <td>Carla Oliveira</td>
+                  <td>1º A - EM</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202604</td>
+                  <td>Daniel Souza</td>
+                  <td>9º A - EF</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202605</td>
+                  <td>Eduarda Lima</td>
+                  <td>8º B - EF</td>
+                  <td><span class="status inactive">Trancado</span></td>
+                </tr>
+                <tr>
+                  <td>#202606</td>
+                  <td>Felipe Costa</td>
+                  <td>3º B - EM</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202607</td>
+                  <td>Gabriela Pereira</td>
+                  <td>7º A - EF</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202608</td>
+                  <td>Heitor Alves</td>
+                  <td>1º B - EM</td>
+                  <td><span class="status pending">Pendente</span></td>
+                </tr>
+                <tr>
+                  <td>#202609</td>
+                  <td>Isabela Martins</td>
+                  <td>2º A - EM</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+                <tr>
+                  <td>#202610</td>
+                  <td>João Pedro Rabelo</td>
+                  <td>6º C - EF</td>
+                  <td><span class="status active">Matriculado</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <div class="side-content">
+          
+          <section class="widget">
+            <h2>📢 Avisos da Escola</h2>
+            <ul class="announcements">
+              <li>
+                <strong>Início das Provas</strong>
+                <p>As avaliações do 3º bimestre iniciam na próxima segunda-feira.</p>
+              </li>
+              <li>
+                <strong>Festa Junina</strong>
+                <p>Confira a programação completa dos ensaios e barracas no portal.</p>
+              </li>
+              <li>
+                <strong>Reunião de Pais</strong>
+                <p>Encontro presencial agendado para o próximo sábado às 09h.</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="widget">
+            <h2>📅 Eventos Futuros</h2>
+            <ul class="events-list">
+              <li>
+                <span class="event-date">05/08</span>
+                <span class="event-title">Feira de Ciências</span>
+              </li>
+              <li>
+                <span class="event-date">12/08</span>
+                <span class="event-title">Campeonato Escolar</span>
+              </li>
+              <li>
+                <span class="event-date">18/08</span>
+                <span class="event-title">Simulado ENEM</span>
+              </li>
+              <li>
+                <span class="event-date">25/08</span>
+                <span class="event-title">Conselho de Classe</span>
+              </li>
+              <li>
+                <span class="event-date">30/08</span>
+                <span class="event-title">Encerramento do Bimestre</span>
+              </li>
+            </ul>
+          </section>
+
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <p>Desenvolvido por: <strong>Seu Nome Aqui</strong> | Turma: <strong>3º Ano A</strong> | Disciplina: <strong>Desenvolvimento Web</strong> | Ano: <strong>2026</strong></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
